@@ -124,12 +124,15 @@
 .bottom ul{
   list-style-type: none;
   display: inline-block;
-  margin-left: 108px;
+  margin-right: 5%;
   color: white;
   font-size: 10px;
 
 }
 
+  .bottom .botGroup{
+    margin-left: 108px;
+  }
 .bottom ul li{
   margin: 10px 0;
 }
