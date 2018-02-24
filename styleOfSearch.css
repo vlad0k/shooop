@@ -1,0 +1,55 @@
+.search {
+    height: 44px;
+    position: relative;
+    border-bottom: 1px solid #F5F5F5;
+}
+
+.search .inp{
+  margin: 16px 20%;
+  width: 50%;
+  color: #F5F5F5;
+  border: 1px solid #F5F5F5;
+  border-radius: 5px;
+  position: relative;
+}
+
+.search .inp button{
+  height: 27px;
+  width: 65px;
+  background-color: #FBE65C;
+  outline: none;
+  border: none;
+  position: absolute;
+  right: -1px;
+  top: -1px;
+  border-radius: 0 5px 5px 0;
+}
+
+.search .inp img {
+  height: 11px;
+  width: 11px;
+  margin-left: 5px;
+}
+
+.search input {
+  font-size: 11px;
+  height: 25px;
+  padding: 0;
+  border: none;
+  outline: none;
+}
+
+.search .callUs{
+  display: inline-block;
+  position: absolute;
+  font-size: 20px;
+  font-weight: bold;
+  right: 108px;
+  top: 0;
+}
+
+.search .callUs span{
+  display: block;
+  font-size: 10px;
+  color: #A6A6A6;
+}

@@ -1,0 +1,36 @@
+.navbar{
+    font-size: 10px;
+    position: relative;
+}
+
+.navbar nav{
+  font-weight: bold;
+  margin: 20px 108px;
+  margin-right: 200px;
+}
+
+.navbar nav a{
+  margin-left: 4px;
+  display: inline-block;
+}
+
+.navbar .bagAndComp{
+  position: absolute;
+  right: 108px;
+  top: -8px;
+}
+
+.navbar .bagAndComp img {
+  margin-left: 5px;
+  height: 24px;
+  width: 24px;
+}
+
+.navbar .bagAndComp .descr{
+  display: inline-block;
+  font-size: 8px;
+}
+
+.navbar .bagAndComp div {
+  display: inline-block;
+}

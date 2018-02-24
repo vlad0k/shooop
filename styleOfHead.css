@@ -1,0 +1,48 @@
+@font-face {
+    font-family: Roboto-Regular; /* Гарнитура шрифта */
+    src: url(Roboto-Regular.ttf); /* Путь к файлу со шрифтом */
+   }
+
+body{
+  margin: 0;
+  font-family: Roboto-Regular;
+  min-width: 1280px;
+}
+
+.header{
+  background-color: black;
+  color: white;
+  padding: 0 108px;
+  position: relative;
+  box-shadow: 0 0 5px black;
+}
+.header ul{
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  height: 28px;
+  padding-top: 8px;
+}
+
+.header li{
+    list-style-type: none;
+}
+
+.header nav{
+  display: inline-block;
+}
+
+.header a{
+  display: inline-block;
+  margin-left: 10px;
+  font-size: 12px;
+}
+
+.arrow{
+  font-size: 8px;
+}
+
+.userCell{
+  position: absolute;
+  right: 108px;
+}
