@@ -80,6 +80,7 @@
   border-radius: 5px;
   font-size: 8px;
   font-weight: bold;
+  background-color: transparent;
 }
 
 .hot .hotBox button:hover{
@@ -105,7 +106,7 @@
 
 .hot .hotboxSmall img{
   position: absolute;
-  width: 300px;
+  width: 285px;
   right: 0px;
   height: 113px;
 }
