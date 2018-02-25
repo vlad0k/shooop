@@ -61,6 +61,7 @@
   font-weight: bold;
   margin: auto;
   margin-bottom: 40px;
+  padding: 0 20px;
 }
 
 .mainPage button:hover{
@@ -91,7 +92,7 @@
   background-color: white;
   width: 525px;
   height: 364px;
-    box-shadow: 0 10px 10px rgba(0,0,0,0.2);
+  box-shadow: 0 10px 10px rgba(0,0,0,0.2);
 }
 
 .news .mainNews img{
@@ -126,4 +127,29 @@
   font-weight: bold;
     margin: 26px;
 
+}
+
+.mainButton{
+  display: block;
+  background-color: transparent;
+  margin-top:24px;
+  outline: none;
+  height: 34px;
+  border: 1px solid #43A1E9;
+  border-radius: 5px;
+  font-size: 8px;
+  font-weight: bold;
+  margin: auto;
+  padding: 0 20px;
+}
+
+.mainButton:hover{
+  background-color: #43A1E9;
+  color: white;
+}
+
+.butDiv{
+  background-color: #F5F5F5;
+  padding-top: 20px;
+  padding-bottom: 40px;
 }

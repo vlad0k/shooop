@@ -1,23 +1,92 @@
 .navbar{
     font-size: 10px;
-    position: relative;
 }
 
 .navbar nav{
   font-weight: bold;
-  margin: 20px 108px;
-  margin-right: 200px;
+  margin-left: 108px;
+  width: 1010px;
 }
 
-.navbar nav a{
-  margin-left: 4px;
+.navbar nav .categories{
+  padding: 15px 15px;
   display: inline-block;
+
+}
+
+.navbar nav .categories .popUpMenu{
+  display: none;
+  position: absolute;
+  width: 100%;
+  padding: 62px;
+  padding-bottom: 30px;
+  background-color: #FBE65C;
+  font-size: 20px;
+  top: 138px;
+  left: 0px;
+  z-index: 1;
+  box-shadow: 0 10px 10px rgba(0,0,0,0.2);
+}
+.navbar nav .categories .popUpMenu_1 .arrowOfPopUp {
+  left: 230px;
+}
+
+.navbar nav .categories .popUpMenu_2 .arrowOfPopUp {
+  left: 368px;
+}
+
+.navbar nav .categories .popUpMenu_3 .arrowOfPopUp {
+  left: 493px;
+}
+
+.navbar nav .categories .popUpMenu_4 .arrowOfPopUp {
+  left: 598px;
+}
+
+.navbar nav .categories .popUpMenu_5 .arrowOfPopUp {
+  left: 700px;
+}
+
+.navbar nav .categories .popUpMenu_6 .arrowOfPopUp {
+  left: 805px;
+}
+
+.navbar nav .categories .popUpMenu_7 .arrowOfPopUp {
+  left: 910px;
+}
+
+.navbar nav .categories .popUpMenu_8 .arrowOfPopUp {
+  left: 1007px;
+}
+
+.navbar nav .categories .popUpMenu_9 .arrowOfPopUp {
+  left: 1079px;
+}
+
+.navbar nav .categories:hover .popUpMenu .arrowOfPopUp {
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: -6px;
+  border-right: 13px solid #FBE65C;
+  border-top: 13px solid transparent;
+  transform: rotate(225deg);
+}
+
+.navbar nav .categories .popUpMenu .popUp {
+  display: inline-block;
+  margin-right: 56px;
+  margin-bottom: 32px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+.navbar nav .categories:hover div{
+  display: inline;
 }
 
 .navbar .bagAndComp{
   position: absolute;
   right: 108px;
-  top: -8px;
+  top: 7px;
 }
 
 .navbar .bagAndComp img {
